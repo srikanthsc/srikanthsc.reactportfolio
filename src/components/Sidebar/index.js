@@ -14,28 +14,28 @@ const Sidebar = () => (
   <div className="nav-bar">
      <Link 
         className="logo"
-        to="/">
+        to="./">
         <img src={LogoS} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="sc" />
       </Link>
       <nav>
         <NavLink exact="true"
           activeclassname="active"
-          to="/">
+          to="./">
              <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
 
         </NavLink>
         <NavLink exact="true"
           activeclassname="active"
           className="about-link"
-          to="/about">
+          to="srikanthsc.reactportfolio/about">
              <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
 
         </NavLink>
         <NavLink exact="true"
           activeclassname="active"
           className="contact-link"
-          to="/contact">
+          to="srikanthsc.reactportfolio/contact">
              <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
 
         </NavLink>

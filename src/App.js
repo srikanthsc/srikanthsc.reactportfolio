@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="srikanthsc.reactportfolio/" element={<Layout />}>
+        <Route index="srikanthsc.reactportfolio/Home" element={<Home />} />
+        <Route path="srikanthsc.reactportfolio/about" element={<About />} />
+        <Route path="srikanthsc.reactportfolio/contact" element={<Contact />} />
         </Route>
       </Routes>
     </>
